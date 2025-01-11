@@ -1,0 +1,7 @@
+node_modules/
+*vscode
+design/
+images/
+style-guide.md
+README.md
+motivationsgenerator.code-workspace

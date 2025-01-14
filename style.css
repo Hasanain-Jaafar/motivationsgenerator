@@ -1,4 +1,4 @@
-/* Reseting Default */
+/* Reseting Default  */
 *,
 *::before,
 *::after {
@@ -22,7 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  min-height: 100vh;
+  min-height: 100dvh;
   img {
     min-width: 100%;
   }
@@ -46,24 +46,20 @@ body {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       letter-spacing: 0.2rem;
       span {
+        
         color: var(--primary);
       }
     }
     p {
-      font-size: 28px;
+      font-size: 1.2rem;
       letter-spacing: 0.1rem;
       margin-bottom: 1.5rem;
-      padding: 0 2.4rem;
-      min-width: 384px;
+      padding-inline: min(0rem,2.4rem);
+      width: min(280px,384px);
       font-weight: 300;
       justify-self: center;
-      span {
-        display: block;
-        margin-top: 1rem;
-        font-size: 2rem;
-      }
     }
-
+    
     .divider {
       display: flex;
       justify-content: center;
@@ -97,12 +93,10 @@ body {
   }
 }
 @media only screen and (max-width: 375px) {
-  body {
-    max-width: 100dvw;
-  }
   body .img-wrapper {
     order: 1;
     width: 70%;
+    margin: 0;
   }
   body main {
     order: 2;

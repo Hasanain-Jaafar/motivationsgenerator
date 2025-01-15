@@ -1,3 +1,4 @@
+// DOM Selectors
 const paragraphOutput = document.getElementById("output");
 const adviceID = document.getElementById("adviceID");
 const fetchNextQuoteBtn = document.getElementById("fetchButton");
